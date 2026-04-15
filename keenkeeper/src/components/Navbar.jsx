@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { FaHouse, FaClock, FaChartSimple } from "react-icons/fa6";
+ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const linkStyle = ({ isActive }) =>
@@ -14,9 +15,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         
         
-        <h1 className="text-2xl font-bold text-purple-400">
-     Keen <span className="text-green-400">Keeper</span>
-        </h1>
+     
+
+<Link to="/">
+  <h1 className="text-2xl font-bold text-purple-400 cursor-pointer">
+    Keen <span className="text-green-400">Keeper</span>
+  </h1>
+</Link>
 
         {/* Links Section  */}
         
