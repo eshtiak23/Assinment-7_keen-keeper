@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Hasan",
+    "picture": "https://i.pravatar.cc/300?img=12",
+    "email": "arif.hasan@gmail.com",
+    "days_since_contact": 42,
+    "status": "overdue",
+    "tags": ["polytechnic", "close friend"],
+    "bio": "We studied together at Rajshahi Polytechnic.",
+    "goal": 30,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Ahmed",
+    "picture": "https://i.pravatar.cc/300?img=20",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["gaming", "school"],
+    "bio": "Late night gaming partner and school friend.",
+    "goal": 21,
+    "next_due_date": "2026-05-03"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.pravatar.cc/300?img=47",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["college", "friend"],
+    "bio": "College friend who loves photography.",
+    "goal": 14,
+    "next_due_date": "2026-05-12"
+  },
+  {
+    "id": 4,
+    "name": "Sabbir Hossain",
+    "picture": "https://i.pravatar.cc/300?img=15",
+    "email": "sabbir.hossain@gmail.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["cricket", "friend"],
+    "bio": "We play cricket every weekend.",
+    "goal": 25,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 5,
+    "name": "Faria Islam",
+    "picture": "https://i.pravatar.cc/300?img=5",
+    "email": "faria.islam@gmail.com",
+    "days_since_contact": 14,
+    "status": "on-track",
+    "tags": ["design", "project"],
+    "bio": "Worked together on UI design projects.",
+    "goal": 20,
+    "next_due_date": "2026-05-08"
+  },
+  {
+    "id": 6,
+    "name": "Mahmudul Hasan",
+    "picture": "https://i.pravatar.cc/300?img=18",
+    "email": "mahmudul.hasan@gmail.com",
+    "days_since_contact": 27,
+    "status": "almost due",
+    "tags": ["coding", "team"],
+    "bio": "Coding partner for competitions.",
+    "goal": 30,
+    "next_due_date": "2026-05-02"
+  },
+  {
+    "id": 7,
+    "name": "Rifat Karim",
+    "picture": "https://i.pravatar.cc/300?img=30",
+    "email": "rifat.karim@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["neighbor", "friend"],
+    "bio": "My neighbor and daily hangout buddy.",
+    "goal": 10,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 8,
+    "name": "Jannatul Ferdous",
+    "picture": "https://i.pravatar.cc/300?img=25",
+    "email": "jannatul.ferdous@gmail.com",
+    "days_since_contact": 38,
+    "status": "overdue",
+    "tags": ["school", "friend"],
+    "bio": "Old school friend, lost touch recently.",
+    "goal": 30,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 9,
+    "name": "Imran Khan",
+    "picture": "https://i.pravatar.cc/300?img=22",
+    "email": "imran.khan@gmail.com",
+    "days_since_contact": 19,
+    "status": "almost due",
+    "tags": ["gym", "friend"],
+    "bio": "Gym partner who motivates me daily.",
+    "goal": 21,
+    "next_due_date": "2026-05-04"
+  },
+  {
+    "id": 10,
+    "name": "Sumaiya Akter",
+    "picture": "https://i.pravatar.cc/300?img=45",
+    "email": "sumaiya.akter@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["family", "cousin"],
+    "bio": "My cousin, we talk often.",
+    "goal": 15,
+    "next_due_date": "2026-05-11"
+  }
+]
