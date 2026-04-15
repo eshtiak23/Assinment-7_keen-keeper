@@ -15,7 +15,7 @@ const Navbar = () => {
         
         
         <h1 className="text-2xl font-bold text-purple-400">
-          KeenKeeper
+     Keen <span className="text-green-400">Keeper</span>
         </h1>
 
         {/* Links Section  */}
