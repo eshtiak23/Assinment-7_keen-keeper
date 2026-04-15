@@ -13,12 +13,13 @@ const Navbar = () => {
     <nav className="bg-slate-900 border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         
-        {/* Logo */}
-        <h1 className="text-2xl font-bold text-white">
+        
+        <h1 className="text-2xl font-bold text-purple-400">
           KeenKeeper
         </h1>
 
-        {/* Links */}
+        {/* Links Section  */}
+        
         <div className="flex gap-4">
           <NavLink to="/" className={linkStyle}>
             <FaHouse />

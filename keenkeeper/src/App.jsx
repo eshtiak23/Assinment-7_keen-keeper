@@ -3,6 +3,8 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import FriendDetails from "./pages/FriendDetails";
 import Timeline from "./pages/Timeline";
+import Stats from "./pages/Stats";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -23,9 +25,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats",
-        element: <h1 className="text-white p-10 text-3xl">Stats Page</h1>,
+        element: <Stats />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
