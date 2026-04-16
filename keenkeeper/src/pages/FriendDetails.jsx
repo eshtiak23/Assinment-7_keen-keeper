@@ -122,7 +122,8 @@ const FriendDetails = () => {
 
       <div className="lg:col-span-2 space-y-6">
 
-        {/* STATS */}
+        {/* Stats Section */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-[#121A2B] border border-[#25324A] rounded-2xl p-6 text-center">
             <h3 className="text-4xl font-bold text-[#7CFFB2] mb-2">

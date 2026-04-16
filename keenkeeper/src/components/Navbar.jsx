@@ -21,7 +21,8 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        {/* Desktop Links */}
+        {/* Desktop Link Section */}
+
         <div className="hidden md:flex gap-4">
           <NavLink to="/" className={linkStyle}>
             <FaHouse />
@@ -39,7 +40,7 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Button  Section*/}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-white text-2xl"
@@ -48,7 +49,8 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Section */}
+      
       {menuOpen && (
         <div className="md:hidden px-4 pb-4">
           <div className="flex flex-col gap-3 bg-slate-800 p-4 rounded-xl">

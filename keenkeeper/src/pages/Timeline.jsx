@@ -5,6 +5,7 @@ import { FaPhone, FaMessage, FaVideo } from "react-icons/fa6";
 const Timeline = () => {
   const [timeline, setTimeline] = useState([]);
   const [filter, setFilter] = useState("All");
+  const [sortOrder, setSortOrder] = useState("newest");
 
   useEffect(() => {
     const savedTimeline = getTimelineData();
@@ -23,16 +24,34 @@ const Timeline = () => {
     return <FaVideo className="text-purple-400 text-2xl" />;
   };
 
-  const filteredTimeline =
+  // Filter Section
+
+  let filteredTimeline =
     filter === "All"
       ? timeline
       : timeline.filter((item) => item.type === filter);
 
+  // Cetagory + Date Sorting Section
+
+  filteredTimeline = [...filteredTimeline].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+
+    return sortOrder === "newest"
+      ? dateB - dateA
+      : dateA - dateB;
+  });
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">Timeline</h1>
+      <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">
+        Timeline
+      </h1>
 
-      <div className="mb-8">
+    
+      <div className="mb-8 flex flex-col md:flex-row gap-4">
+
+     
         <select
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
@@ -43,8 +62,20 @@ const Timeline = () => {
           <option value="Text">Text</option>
           <option value="Video">Video</option>
         </select>
+
+        {/* Sort Section */}
+
+        <select
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value)}
+          className="bg-slate-800 text-white border border-slate-600 rounded-lg px-4 py-3"
+        >
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+        </select>
       </div>
 
+     
       <div className="space-y-5">
         {filteredTimeline.length === 0 ? (
           <div className="bg-slate-800 border border-slate-700 rounded-2xl p-8 text-center text-slate-400">
@@ -59,7 +90,9 @@ const Timeline = () => {
               <div>{getIcon(item.type)}</div>
 
               <div>
-                <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                <h3 className="text-xl font-semibold text-white">
+                  {item.title}
+                </h3>
                 <p className="text-slate-400">
                   {new Date(item.date).toLocaleDateString()}
                 </p>
