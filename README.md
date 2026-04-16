@@ -17,7 +17,7 @@ It provides a clean dashboard, friend details, and a timeline system to log call
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - React.js
 - React Router DOM
@@ -49,8 +49,8 @@ Analytics (Stats Page)
 - Pie chart showing interaction distribution
 - Built using Recharts
 
-### 🎨 UI/UX
+### UI/UX
 - Fully responsive (Mobile, Tablet, Desktop)
-- Dark modern theme (Figma-inspired)
+- Dark modern theme 
 - Smooth hover effects and animations
 
