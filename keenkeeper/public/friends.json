@@ -13,9 +13,9 @@
   },
   {
     "id": 2,
-    "name": "Tanvir Ahmed",
+    "name": "Sadia Nishat",
     "picture": "https://i.pravatar.cc/300?img=20",
-    "email": "tanvir.ahmed@gmail.com",
+    "email": "sadia.nishat@gmail.com",
     "days_since_contact": 18,
     "status": "almost due",
     "tags": ["gaming", "school"],
@@ -94,29 +94,6 @@
     "bio": "Old school friend, lost touch recently.",
     "goal": 30,
     "next_due_date": "2026-04-20"
-  },
-  {
-    "id": 9,
-    "name": "Imran Khan",
-    "picture": "https://i.pravatar.cc/300?img=22",
-    "email": "imran.khan@gmail.com",
-    "days_since_contact": 19,
-    "status": "almost due",
-    "tags": ["gym", "friend"],
-    "bio": "Gym partner who motivates me daily.",
-    "goal": 21,
-    "next_due_date": "2026-05-04"
-  },
-  {
-    "id": 10,
-    "name": "Sumaiya Akter",
-    "picture": "https://i.pravatar.cc/300?img=45",
-    "email": "sumaiya.akter@gmail.com",
-    "days_since_contact": 8,
-    "status": "on-track",
-    "tags": ["family", "cousin"],
-    "bio": "My cousin, we talk often.",
-    "goal": 15,
-    "next_due_date": "2026-05-11"
   }
+  
 ]
